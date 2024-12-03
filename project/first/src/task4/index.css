@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+}
+
+.Pocket{
+  background-color: rgba(218, 229, 245, 1);
+  text-align: center;
+  height: 100vh;
+ width: 1000px;
+ position: fixed; 
+ right: 0; 
+ top: 0; 
+
+ 
+
+}
+
+.ss {
+  margin-top: 60px;
+  font-size: 24px;
+  font-style: oblique;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.popup input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #e80a0a;
+  border-radius: 5px;
+}
+
+.popup button {
+  margin-right: 10px;
+}
+
+.bb {
+  padding: 12px;
+  background-color: rgba(22, 0, 139, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vv {
+  padding: 12px;
+  background-color: rgba(22, 0, 139, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.color-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  margin: 5px;
+}
+
+.color-box:hover {
+  transform: scale(1.1);
+}
+
+.color-box.selected {
+  border-color: #000;
+}
+
+.all {
+  list-style-type: none;
+  padding: 5px;
+  width: 270px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* .all li {
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+} */
+
+.but {
+  padding: 12px;
+  background-color: rgba(22, 0, 139, 1);
+  color: white;
+  border: none;
+  border-radius: 42%;
+  cursor: pointer;
+  font-size: larger;
+  margin-left: 190px;
+}
+
+button:hover {
+  background-color: rgba(22, 0, 139, 1);
+}
+
+.para {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: larger;
+  background-color: rgba(218, 229, 245, 1);
+  height: 100vh;
+}
+
+.group-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 10px;
+}
+
+.group-page h1 {
+  margin-top: 0;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start; 
+}
+
+.oo {
+  border: 1px solid black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+}
+
+.paragraphs {
+  overflow-y: auto;
+  flex-grow: 1; 
+  margin-bottom: 20px;
+  background-color: rgba(218, 229, 245, 1);
+}
+
+.paragraph-item {
+  border: 1px solid black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+}
+
+img {
+  margin-top: 100px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  background-color: #001f8b;
+  padding: 10px;
+  width: 100%;
+  z-index: 1; 
+}
+
+.text-input {
+  padding: 30px;
+  border: 14px solid #001f8b;
+  border-radius: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.input-button {
+  background-color: #001f8b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 10px;
+  position: absolute;
+  margin-left: 1110px;
+}
+
+.group-page {
+  background-color: #dae5f5;
+}
+
+.input-button:hover {
+  background-color: #0056b3;
+}
+
+.end {
+  font-size: larger;
+}
+
+.yy {
+  background-color: #001f8b;
+  width: 100%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 15px;
+  /* border-radius: 20px; */
+  position: sticky; 
+  top: 0;
+  z-index: 1;
+}
+
+.lp {
+  margin-left: 410px;
+}
+/* .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+} */
+.all li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px; /* Space between the circle and the name */
+  color: white;
+  font-weight: bold;
+}
+
+span {
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
