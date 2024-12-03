@@ -1,0 +1,46 @@
+.containerrrrr {
+    position: relative;
+
+   background-color: white;
+    height: 100vh;
+    max-width: 475px;
+    margin: auto;
+    text-align: center;
+   
+  }
+ 
+  .logooooo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 3px black;
+    margin-top: 30px;
+  }
+ 
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+ 
+  .feedbackkkkk {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+ 
+  .submittttt-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #FE724C;
+
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 100px;
+    width: 60%;
+  }
+ 
+ 

@@ -1,0 +1,147 @@
+.my-orders {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  .dfc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  .wase{
+   background-color: white;
+    height: 20px;
+    border: none;
+  }
+  .kh{
+    width: 30px;
+    border-radius: 10px;
+    
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .nav-button {
+    padding: 10px 20px;
+    background: #FE724C;
+
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .nav-button.inactive {
+    background-color: lightgray;
+  }
+  
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 50%;
+  }
+  
+  .order-section {
+    margin-bottom: 30px;
+    width: 300px;
+  }
+  
+  .current-order,
+  .past-order {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .order-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .order-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .order-name {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .order-number,
+  .order-time {
+    color: gray;
+    font-size: 12px;
+  }
+  
+  .order-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .arrival-time {
+    font-size: 14px;
+    
+    text-align: center;
+  }
+  .arrival-time .time{
+    font-size: 15px;
+  }
+  
+  .status {
+   
+    color: green;
+    font-size: 15px;
+  }
+  
+  .order-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cancel-button,
+  .track-button,
+  .reorder-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: lightgray;
+  }
+  
+  .track-button,
+  .reorder-button {
+    background: #FE724C;
+
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .past-orders .section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .past-order .order-price {
+    font-weight: bold;
+    color: #ff4500;
+    font-size: 12px;
+  }
+ 
+  
+  

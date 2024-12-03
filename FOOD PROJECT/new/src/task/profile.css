@@ -1,0 +1,105 @@
+.si {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Background for the form container */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .mnef {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4500; /* Theme color */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .rti{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .isd{
+    border-radius: 30px;
+  }
+  .paki{
+    margin-top: 5px;
+  }
+  .rati{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+  }
+  .dred{
+    text-align: center;
+    
+  }
+  .dresd{
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    background: #FE724C;
+    border: none;
+
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333; /* Label text color */
+    margin-bottom: 5px;
+  }
+  
+  input {
+    height: 40px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+  }
+  
+  input:focus {
+    border-color: #ff4500; /* Highlight input field on focus */
+    outline: none;
+    box-shadow: 0 0 3px rgba(255, 69, 0, 0.3);
+  }
+  
+  .pas {
+    position: relative;
+  }
+  
+  .pas input {
+    width: 100%;
+  }
+  
+  .si .alert {
+    margin-top: 15px;
+    font-size: 12px;
+    color: red;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .si {
+      padding: 15px;
+      margin: 20px;
+    }
+  
+    .mnef {
+      font-size: 20px;
+    }
+  
+    input {
+      font-size: 13px;
+    }
+  }
+  

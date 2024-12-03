@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.total{
+    width: 475px;
+    border: 1px solid black;
+    /* height: 100vh; */
+
+}.pan{
+    display: flex;
+    justify-content: space-between;
+
+}
+.fats{
+    margin-top: 90px;
+    margin-left: 40px;
+    font-size: 50px;
+   
+}
+span{
+    font-size: 40px;
+    color:  #FE724C;
+    
+}
+.kha{
+    margin-left: 130px;
+}
+.yy{
+    font-size: 14px;
+    color:  #FE724C;
+}
+.skl{
+   
+    text-align: center;
+}
+
+.sql{
+    text-align: center;
+}
+.backkk{
+  
+    padding: 11px;
+    border-radius: 10px;
+    height: 50px;
+    background-color:rgba(255, 255, 255, 1);
+}
+.km{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+

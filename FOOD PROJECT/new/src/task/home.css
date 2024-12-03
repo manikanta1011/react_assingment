@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .he {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Section */
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px; /* Reduced margin */
+  }
+  
+  .mb {
+    width: 15%;
+    height: auto;
+  }
+  
+  .mbd {
+    width: 12%;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 50%;
+  }
+  
+  .war {
+    font-size: 16px; /* Slightly smaller for compactness */
+    font-weight: bold;
+    color: #323643;
+  }
+  
+  /* Heading Section */
+  h4 {
+    font-size: 24px; /* Adjusted size */
+    color: #323643;
+    margin: 5px 0; /* Reduced margins */
+    text-align: left;
+  }
+  
+  .asd {
+    display: block;
+    margin: 10px auto; /* Compact margin */
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px; /* Adjusted size */
+  }
+  
+  /* Search Input */
+  input[type="text"] {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  /* Mapped Items (Dynamic Data) */
+  .mapped {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 10px; /* Reduced gap */
+    padding: 0; /* Removed padding */
+    margin: 15px 0; /* Compact spacing */
+  }
+  
+  .ima {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  .ima img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-bottom: 5px;
+  }
+  
+  .ima h5 {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Featured Restaurants */
+  .fla {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0; /* Reduced spacing */
+  }
+  
+  .plk {
+    font-size: 18px;
+    font-weight: bold;
+    color: #323643;
+  }
+  
+  .ak {
+    font-size: 14px;
+    color: #FE724C;
+    cursor: pointer;
+  }
+  
+  /* Restaurant Images */
+  .khan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  /* Icons Section */
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    padding: 8px; /* Compact padding */
+    border-radius: 10px;
+    margin-top: 15px; /* Compact margin */
+    background-color: #fff;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .he {
+      padding: 10px; /* Reduced padding */
+      border: none;
+      box-shadow: none;
+    }
+  
+    .mb, .mbd {
+      width: 18%; /* Slightly larger icons for small screens */
+    }
+  
+    h4 {
+      font-size: 22px;
+    }
+  
+    .mapped {
+      grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+      gap: 8px; /* Reduced gap */
+    }
+  
+    .khan img {
+      width: 150px;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .asd {
+      width: 100%;
+    }
+  
+    .mapped {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+    }
+  
+    .khan img {
+      width: 100%;
+      max-width: 120px;
+    }
+  
+    .icons img {
+      width: 18px;
+    }
+  }
+  

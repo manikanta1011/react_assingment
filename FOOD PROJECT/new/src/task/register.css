@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mobile-verification-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+   
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    height: 85vh;
+  }
+  .fackl{
+    
+  margin-right: 270px;
+    padding: 6px;
+    border-radius: 10px;
+    background: #FE724C;
+  color: #ffffff;
+    font-size: 20px;
+
+  }
+  .poi{
+    margin-top: 40px;
+   margin-right: 170px;
+  }
+  
+ 
+  .back-button {
+    background: none;
+    border: none;
+    color: #ff5722;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+ 
+  
+
+  h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 20px;
+  }
+  
+
+  .mobile-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+
+  .country-select {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #555555;
+    background-color: #f9f9f9;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .country-select:focus {
+    border-color: #ff5722;
+  }
+  
+
+  .mobile-input {
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333333;
+    background-color: #f9f9f9;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .mobile-input:focus {
+    border-color: #ff5722;
+  }
+  
+  
+  .error-message {
+    color: #ff5722;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+
+  .send-button {
+    width: 100%;
+    padding: 19px;
+    background-color:  #FE724C;
+ 
+    border: none;
+    border-radius: 40px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 20px;
+    letter-spacing: 8%;
+   
+    
+ 
+  }
+  
+  
+  
+ 
+  @media (max-width: 480px) {
+    .mobile-verification-container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 13px;
+    }
+  
+    .country-select,
+    .mobile-input {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .send-button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  

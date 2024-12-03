@@ -1,0 +1,53 @@
+.kia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dcx{
+ margin-right: 280px;
+ padding: 10px;
+ border-radius: 20px;
+ background-color: white;
+ border: none;
+ margin-bottom: 10px;
+}
+
+.cvrt{
+    margin-top: -50px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    width: 80px;
+}
+.klb{
+    padding: 17px;
+    border-radius: 20px;
+    background: #FE724C;
+    width: 40%;
+}
+
+    .tyu {
+        height: 70px;
+        width: 90%; /* Example width */
+        max-width: 400px; /* To limit the maximum width */
+        padding: 5px; /* Padding for better appearance */
+        border: 1px solid #ccc; /* Optional border */
+        border-radius: 5px; /* Rounded corners */
+    }
+    .yuo{
+        font-size: 15px;
+        color: #53D776;
+
+    }
+    .rdf{
+        color: red;
+        font-size: 27px;
+        margin-top: 8px;
+
+    }
+    .faz{
+        color: #FFC529;
+
+        font-size: 20px;
+    }
+    

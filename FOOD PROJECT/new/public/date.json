@@ -1,0 +1,18 @@
+[
+    {
+        "image":"/asset/burger.png",
+        "name":"burger"
+    },
+    {
+        "image":"/asset/ppp.png",
+        "name":"donat"
+    },
+    {
+        "image":"/asset/pizza.png",
+        "name":"pizza"
+    },
+    {
+        "image":"/asset/lip.png",
+        "name":"mixcen"
+    }
+]
