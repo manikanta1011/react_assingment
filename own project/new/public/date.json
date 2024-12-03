@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "name": "Jalsa",
+      "category": "Drama",
+      "image": "/assest/jalsa.jpg",
+      "year": "2010",
+      "actor": "Pawan Kalyan",
+      "rating": 4.5,
+      "director": "Sukumar",
+      "price": 300
+    },
+    {
+      "id": 2,
+      "name": "Inception",
+      "category": "Sci-Fi",
+      "image": "/assest/bahubali.png",
+      "year": "2010",
+      "actor": "Leonardo DiCaprio",
+      "rating": 4.0,
+      "director": "Christopher Nolan",
+      "price": 500
+    },
+    {
+      "id": 3,
+      "name": "Interstellar",
+      "category": "Sci-Fi",
+      "image": "/assest/bussines.jpg",
+      "year": "2014",
+      "actor": "Matthew McConaughey",
+      "rating": 4.1,
+      "director": "Christopher Nolan",
+      "price": 400
+    }
+  ]
+  
